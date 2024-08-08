@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "donhacker@gamil.com";
+global.email = "tonnyasht@gmail.com";
 global.location = "Jinja, Uganda";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VajvAYL7Y
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/ca3524b5910d72a0844b7.jpg";
 global.devs = "256704376077";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "256742366969";
+global.owner = process.env.OWNER_NUMBER || "256708217427";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -45,14 +45,14 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "4",
-  HANDLERS: process.env.PREFIX || "",
+  HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`FI-BOT-UGANDA-™`",
   author: process.env.PACK_AUTHER || "FI-BOT-UGANDA-",
   packname: process.env.PACK_NAME || "F I B O T",
   botname: process.env.BOT_NAME || "🤖FI-BOT-UGANDA-🤖",
-  ownername: process.env.OWNER_NAME || "𝑫𝑶𝑵 𝑯𝑨𝑪𝑲𝑬𝑹💥",
+  ownername: process.env.OWNER_NAME || "Ash tech 💥",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
